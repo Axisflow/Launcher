@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Launcher version="0" recent="5">
+	<Translate default="zh-tw">
+		<Lang code="zh-tw" name="繁體中文">
+			<Resource key="Title">啟動器</Resource>
+			<Resource key="Exit">離開</Resource>
+		</Lang>
+	</Translate>
+
+	<Set>
+		<Title>%Title%</Title>
+	</Set>
+
+	<Collect>
+		<Item type="action">
+			<Name>%Open%</Name>
+			<Description>%OpenDesc%</Description>
+			<Arguments>open</Arguments>
+			<Icon type="path">res/open.png</Icon>
+			<Poster type="path">res/open.png</Poster>
+		</Item>
+		<Item type="exeutable">
+			<Name>Command Prompt</Name>
+			<Description>cmd.exe</Description>
+			<Path>C:/Windows/System32/cmd.exe</Path>
+			<Icon type="path">res/open.png</Icon>
+			<Poster type="path">res/open.png</Poster>
+		</Item>
+		<Item type="exeutable">
+			<Name>Control Panel</Name>
+			<Description>control.exe</Description>
+			<Path>control.exe</Path>
+			<Icon type="path">res/open.png</Icon>
+			<Poster type="path">res/open.png</Poster>
+		</Item>
+		<Item type="exeutable">
+			<Name>Work Folders</Name>
+			<Description>WorkFolders.exe</Description>
+			<Path>WorkFolders.exe</Path>
+			<Icon type="path">res/open.png</Icon>
+			<Poster type="path">res/open.png</Poster>
+		</Item>
+		<Item type="exeutable">
+			<Name>Disk Management</Name>
+			<Description>diskmgmt.msc</Description>
+			<Path>diskmgmt.msc</Path>
+			<Icon type="path">res/open.png</Icon>
+			<Poster type="path">res/open.png</Poster>
+		</Item>
+		<Item type="exeutable">
+			<Name>Notepad</Name>
+			<Description>notepad.exe</Description>
+			<Path>notepad.exe</Path>
+			<Icon type="path">res/open.png</Icon>
+			<Poster type="path">res/open.png</Poster>
+		</Item>
+		<Item type="exeutable">
+			<Name>Registry Editor</Name>
+			<Description>regedit.exe</Description>
+			<Path>regedit.exe</Path>
+			<Icon type="path">res/open.png</Icon>
+			<Poster type="path">res/open.png</Poster>
+		</Item>
+		<Item type="exeutable">
+			<Name>Explorer</Name>
+			<Description>explorer.exe</Description>
+			<Path>explorer.exe</Path>
+			<Icon type="path">res/open.png</Icon>
+			<Poster type="path">res/open.png</Poster>
+		</Item>
+		<Item type="exeutable">
+			<Name>Remote Desktop</Name>
+			<Description>mstsc.exe</Description>
+			<Path>mstsc.exe</Path>
+			<Icon type="path">res/open.png</Icon>
+			<Poster type="path">res/open.png</Poster>
+		</Item>
+		<Item type="exeutable">
+			<Name>Internet Explorer</Name>
+			<Description>iexplore.exe</Description>
+			<Path>C:/Program Files/Internet Explorer/iexplore.exe</Path>
+			<Icon type="path">res/open.png</Icon>
+			<Poster type="path">res/open.png</Poster>
+		</Item>
+		<Item type="action">
+			<Name>%Exit%</Name>
+			<Description>%ExitDesc%</Description>
+			<Arguments>exit</Arguments>
+			<Icon type="path">res/exit.png</Icon>
+			<Poster type="path">res/exit.png</Poster>
+		</Item>
+	</Collect>
+
+	<Explore>
+		<Rule>
+			<Except></Except>
+		</Rule>
+	</Explore>
+</Launcher>
